@@ -15,4 +15,5 @@
 二、3月3日第二次作业
  
 1. 下载某大神学长的  [插件](https://github.com/Ron89/thesaurus_query.vim)<br/>
-2. 用Github生成图片外链——[迷の卷福](https://raw.githubusercontent.com/luokaifa-whu/computationalphysics_N2014301580293/master/QQ.20160308141916.png)
+2. 用Github生成图片外链——
+   ![迷の卷福](https://raw.githubusercontent.com/luokaifa-whu/computationalphysics_N2014301580293/master/QQ.20160308141916.png)
