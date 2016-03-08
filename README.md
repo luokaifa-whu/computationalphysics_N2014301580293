@@ -16,4 +16,4 @@
 1. 下载某大神学长的  [插件](https://github.com/Ron89/thesaurus_query.vim)<br/>
 2. 用Github生成图片外链——(Markdown控制不了图片尺寸，一不小心占地面积过大)
    ![迷の卷福](https://raw.githubusercontent.com/luokaifa-whu/computationalphysics_N2014301580293/master/QQ.20160308141916.png)
-3. 使用How to think like a computer scientist -- Learning with Python: Interactive Edition 2.0练习Python
+3. 使用[Learning with Python](http://interactivepython.org/runestone/static/thinkcspy/index.html)练习Python
