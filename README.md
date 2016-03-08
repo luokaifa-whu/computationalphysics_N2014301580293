@@ -14,5 +14,5 @@
 
 二、3月3日第二次作业
  
-1. 下载某大神学长的[插件](https://github.com/Ron89/thesaurus_query.vim）（已下载，体验约2分钟后删除）<br/>
+1. 下载某大神学长的[插件](https://github.com/Ron89/thesaurus_query.vim）<br/>
 2. 用Github生成图片外链
