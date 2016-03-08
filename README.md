@@ -4,3 +4,6 @@
 
 ###作业列表
 [2月24日第一次作业](https://github.com/caihao/computational_physics_whu/blob/master/Exercises.md)
+完成情况：
+
+[2月24日第一次作业](https://github.com/caihao/computational_physics_whu/blob/master/Exercises.md)
