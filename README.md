@@ -13,8 +13,7 @@
 
 3. 注册github 账号，关注caihao（已Marked）
 
-4. 按照markdown语法书写自己的第一个README.md(完成)
-   [Markdown语法说明]http://www.appinn.com/markdown/#p)
-
+4. 按照markdown语法书写自己的第一个README.md(完成)<br/>
+   [Markdown语法说明](http://www.appinn.com/markdown/#p)
 
 2月24日第二次作业
