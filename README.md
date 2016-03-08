@@ -7,12 +7,9 @@
 
 完成情况：
 
-1. 安装linux系统（已安装双系统）
-
-2. 安装python 2.7 运行环境（已安装）
-
-3. 注册github 账号，关注caihao（已Marked）
-
+1. 安装linux系统（已安装双系统）<br/>
+2. 安装python 2.7 运行环境（已安装）<br/>
+3. 注册github 账号，关注caihao（已Marked）<br/>
 4. 按照markdown语法书写自己的第一个README.md(完成)<br/>
    [Markdown语法说明](http://www.appinn.com/markdown/#p)
 
