@@ -10,7 +10,7 @@
 3. 注册github 账号，关注caihao（已Marked）<br/>
 4. 按照markdown语法书写自己的第一个README.md(完成)<br/>
    附：<br/>
-   [How to think like a computer scientist](http://www.openbookproject.net/thinkcs/python/english2e/)
+   [How to think like a computer scientist](http://www.openbookproject.net/thinkcs/python/english2e/)<br/>
    [Markdown语法说明](http://www.appinn.com/markdown/#p)<br/>
    [git使用简易指南](http://www.bootcss.com/p/git-guide/)<br/>
    [Python2.7 教程](http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000)<br/>
