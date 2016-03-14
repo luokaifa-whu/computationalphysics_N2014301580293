@@ -8,7 +8,7 @@
     ![逆序](https://raw.githubusercontent.com/luokaifa-whu/computationalphysics_N2014301580293/master/%E9%80%86%E5%BA%8F.png)
     ![乱序](https://raw.githubusercontent.com/luokaifa-whu/computationalphysics_N2014301580293/master/%E9%80%86%E5%BA%8F.png)
     ![心形](https://raw.githubusercontent.com/luokaifa-whu/computationalphysics_N2014301580293/master/%E5%BF%83%E5%BD%A2.png)
-    代码如下：
+    *代码如下：*
 line1={'L':' #          ','K':' #       # ','A':'        #        ','F':' #########  ','I':'  #####   ','U':'  #         #','O':'    #####    ','m':'   ##          ##   ',' ':'           '}
 line2={'L':' #          ','K':' #     #   ','A':'       # #       ','F':' #          ','I':'    #     ','U':'  #         #','O':'  #       #  ','m':' #     #     #    # ',' ':'           '}
 line3={'L':' #          ','K':' #   #     ','A':'      #   #      ','F':' #          ','I':'    #     ','U':'  #         #','O':' #         # ','m':'#         #        #',' ':'           '}
