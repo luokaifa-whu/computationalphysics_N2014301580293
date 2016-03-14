@@ -4,8 +4,8 @@
     原理是利用Python中的字典功能将所要显示的字母以分行阵列的形式储存，后用print命令输出即可。
     如果储存26个字母的对应字典，则可实现任意字母以任意顺序输出。
     例图：<br/>
-    ![正序](https://raw.githubusercontent.com/luokaifa-whu/computationalphysics_N2014301580293/master/%E6%AD%A3%E5%BA%8F.png)
-    ![逆序](https://raw.githubusercontent.com/luokaifa-whu/computationalphysics_N2014301580293/master/%E9%80%86%E5%BA%8F.png)
+    ![正序](https://raw.githubusercontent.com/luokaifa-whu/computationalphysics_N2014301580293/master/%E6%AD%A3%E5%BA%8F.png)<br/>
+    ![逆序](https://raw.githubusercontent.com/luokaifa-whu/computationalphysics_N2014301580293/master/%E9%80%86%E5%BA%8F.png)<br/>
     ![乱序](https://raw.githubusercontent.com/luokaifa-whu/computationalphysics_N2014301580293/master/%E9%80%86%E5%BA%8F.png)
     ![心形](https://raw.githubusercontent.com/luokaifa-whu/computationalphysics_N2014301580293/master/%E5%BF%83%E5%BD%A2.png)
     *代码如下：*
