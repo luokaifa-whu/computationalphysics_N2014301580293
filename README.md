@@ -28,13 +28,14 @@
 
 --------------------
 
-**三、[3月9日第三次作业](https://github.com/luokaifa-whu/computationalphysics_N2014301580293/blob/master/%E7%AC%AC%E4%B8%89%E6%AC%A1%E4%BD%9C%E4%B8%9A.md)**
+**三、3月9日第三次作业**
 
 1. 使用字符在显示屏幕上组合并显示出名字的正序、倒序、乱序及特定的符号
 2. 制作由字符形成的动态图形——即原始的显示屏扫描
-
+——[戳我进入作业报告 3](https://github.com/luokaifa-whu/computationalphysics_N2014301580293/blob/master/%E7%AC%AC%E4%B8%89%E6%AC%A1%E4%BD%9C%E4%B8%9A.md)
 --------------------
 
 **四、3月16日第四次作业**
 
    完成Chapter 1课后习题 1.5
+——[戳我进入作业报告 4]()
