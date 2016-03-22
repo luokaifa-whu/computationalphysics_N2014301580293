@@ -23,6 +23,7 @@
 
 1. 下载某大神学长的  [插件](https://github.com/Ron89/thesaurus_query.vim)<br/>
 2. 用Github生成图片外链——(Markdown控制不了图片尺寸，一不小心占地面积过大)
+   **由于受到质疑，特此声明：此图片与本人性取向无关————性别男，爱好女**
    ![迷の卷福](https://raw.githubusercontent.com/luokaifa-whu/computationalphysics_N2014301580293/master/QQ.20160308141916.png)
 3. 使用[Learning with Python](http://interactivepython.org/runestone/static/thinkcspy/index.html)练习Python
 
@@ -39,4 +40,4 @@
 **四、3月16日第四次作业**
 
    完成Chapter 1课后习题 1.5<Br/>
-——[戳我进入作业报告 4]()
+——[戳我进入作业报告 4](https://github.com/luokaifa-whu/computationalphysics_N2014301580293/blob/master/Chapter_1-homework_4/%E7%AC%AC%E5%9B%9B%E6%AC%A1%E4%BD%9C%E4%B8%9A.md)
