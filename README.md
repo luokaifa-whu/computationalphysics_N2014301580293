@@ -7,7 +7,7 @@
 ###**作业列表**
 **一、[2月24日第一次作业](https://github.com/caihao/computational_physics_whu/blob/master/Exercises.md)**
 
-1. 安装linux系统（已安装双系统——Ubuntu 14.04)<br/>
+1. 安装linux系统（已安装双系统——Ubuntu 14.04——双系统因未知原因被玩坏，暂改为虚拟机运行Linux)<br/>
 2. 安装python 2.7 运行环境（已安装）<br/>
 3. 注册github 账号，关注caihao（已Marked并star)<br/>
 4. 按照markdown语法书写自己的第一个README.md(完成)<br/>
