@@ -40,5 +40,13 @@
 **四、3月16日第四次作业**
 
 1. 尝试使用matplotlib画图<Br/>
-2. 完成Chapter 1课后习题 1.5<Br/>
+2. 完成Chapter 1课后习题 1.4<Br/>
 ——[戳我进入作业报告 4](https://github.com/luokaifa-whu/computationalphysics_N2014301580293/blob/master/Chapter_1-homework_4/%E7%AC%AC%E5%9B%9B%E6%AC%A1%E4%BD%9C%E4%B8%9A.md)
+
+---------------------
+
+**四、3月23日第五次作业**
+
+1. 继续练习使用matplotlib画图<Br/>
+2. 完成Chapter 1课后习题 1.5<Br/>
+——[戳我进入作业报告 5](https://github.com/luokaifa-whu/computationalphysics_N2014301580293/blob/master/Chapter_1-homework_4/%E7%AC%AC%E5%9B%9B%E6%AC%A1%E4%BD%9C%E4%B8%9A.md)
