@@ -116,3 +116,5 @@
      hist(randn(1000))   #从高斯分布随机生成1000个点得到的直方图
 ![直方图](https://raw.githubusercontent.com/luokaifa-whu/computationalphysics_N2014301580293/master/Chapter_1-homework_4/%E7%9B%B4%E6%96%B9%E5%9B%BE.png)
    
+###Reference
+[matplotlib基础](http://nbviewer.jupyter.org/github/lijin-THU/notes-python/blob/master/03.%20numpy/03.02%20matplotlib%20basics.ipynb)
