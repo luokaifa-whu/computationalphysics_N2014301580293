@@ -50,3 +50,5 @@
 1. 继续练习使用matplotlib画图<Br/>
 2. 完成Chapter 1课后习题 1.5<Br/>
 ——[戳我进入作业报告 5](https://github.com/luokaifa-whu/computationalphysics_N2014301580293/blob/master/Chapter_1-homework_4/%E7%AC%AC%E5%9B%9B%E6%AC%A1%E4%BD%9C%E4%B8%9A.md)
+3. 经过两次作业的练习，我对python里基于matplotlib的二维画图功能有了初步的了解，在查询了一些资料后，做了一个小结：
+——[Python 二维作图方法小结](https://github.com/luokaifa-whu/computationalphysics_N2014301580293/blob/master/Chapter_1-homework_4/Python%20%E4%BA%8C%E7%BB%B4%E4%BD%9C%E5%9B%BE%E6%96%B9%E6%B3%95%E5%B0%8F%E7%BB%93.md)
