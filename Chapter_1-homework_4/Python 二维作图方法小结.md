@@ -73,7 +73,7 @@
        plot(x)             #在空图框1上作出x的图像
        subplot(1, 2, 2)    #弹出空图框2
        plot(y)             #在空图框2上作出x的图像
-       ![多图](https://raw.githubusercontent.com/luokaifa-whu/computationalphysics_N2014301580293/master/Chapter_1-homework_4/%E5%A4%9A%E5%9B%BE.png)
+![多图](https://raw.githubusercontent.com/luokaifa-whu/computationalphysics_N2014301580293/master/Chapter_1-homework_4/%E5%A4%9A%E5%9B%BE.png)
 
 
 #### 1.1.5 在原图上加新图&新图将原图覆盖
@@ -107,11 +107,11 @@
      scatter(x, y, size, color)     # 显示颜色条
      colorbar()
      out:
-     ![散点图](https://raw.githubusercontent.com/luokaifa-whu/computationalphysics_N2014301580293/master/Chapter_1-homework_4/%E6%95%A3%E7%82%B9%E5%9B%BE.png)
+![散点图](https://raw.githubusercontent.com/luokaifa-whu/computationalphysics_N2014301580293/master/Chapter_1-homework_4/%E6%95%A3%E7%82%B9%E5%9B%BE.png)
 
 ####1.3 直方图
      语法：hist(array())
      e.g.<br/>
      hist(randn(1000))   #从高斯分布随机生成1000个点得到的直方图
-     ![直方图](https://raw.githubusercontent.com/luokaifa-whu/computationalphysics_N2014301580293/master/Chapter_1-homework_4/%E7%9B%B4%E6%96%B9%E5%9B%BE.png)
+![直方图](https://raw.githubusercontent.com/luokaifa-whu/computationalphysics_N2014301580293/master/Chapter_1-homework_4/%E7%9B%B4%E6%96%B9%E5%9B%BE.png)
    
