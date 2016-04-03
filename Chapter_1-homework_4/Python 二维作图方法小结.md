@@ -1,5 +1,5 @@
 ###Python 二维作图方法小结
-    first of all:
+     *First of all:*
      %pylab     #导入matplotlib和numpy
 
 ####1.1 plot二维图    
@@ -56,39 +56,39 @@
         </tr>
 </table>
 ####1.1.3 作多张图
-       e.g.
-       t = linspace(0, 2*pi, 50)
-       x = sin(t)
-       y = cos(t)
-       figure()     #产生一张空图1
-       plot(x)      #在空图1上作出x的图像
-       figure()     #产生一张空图2
-       plot(y)      #在空图2上作出y的图像
+     e.g.
+     t = linspace(0, 2*pi, 50)
+     x = sin(t)
+     y = cos(t)
+     figure()     #产生一张空图1
+     plot(x)      #在空图1上作出x的图像
+     figure()     #产生一张空图2
+     plot(y)      #在空图2上作出y的图像
 
 ####1.1.4 在一张图上作出多个图像
-       语法：
-       subplot(row, column, index)
-       e.g.（其中x,y均由上例定义）
-       subplot(1, 2, 1)    #将一张图纸分为水平两半，弹出空图框1
-       plot(x)             #在空图框1上作出x的图像
-       subplot(1, 2, 2)    #弹出空图框2
-       plot(y)             #在空图框2上作出x的图像
+     语法：
+     subplot(row, column, index)
+     e.g.（其中x,y均由上例定义）
+     subplot(1, 2, 1)    #将一张图纸分为水平两半，弹出空图框1
+     plot(x)             #在空图框1上作出x的图像
+     subplot(1, 2, 2)    #弹出空图框2
+     plot(y)             #在空图框2上作出x的图像
 ![多图](https://raw.githubusercontent.com/luokaifa-whu/computationalphysics_N2014301580293/master/Chapter_1-homework_4/%E5%A4%9A%E5%9B%BE.png)
 
 
 #### 1.1.5 在原图上加新图&新图将原图覆盖
-        语法：
-        plot(x)
-        hold(False)     #接下来作的图将覆盖x的图，注意F需大写
-        plot(y)         
-        hold(True)      #取消覆盖，接下来作的图将叠加在y的图上，注意T需大写   
+     语法：
+     plot(x)
+     hold(False)     #接下来作的图将覆盖x的图，注意F需大写
+     plot(y)         
+     hold(True)      #取消覆盖，接下来作的图将叠加在y的图上，注意T需大写   
 
 ####1.1.6 在图上添加坐标轴标签、标题、图例、网格
- #####坐标轴标签：
-         xlabel('name')    #可以设置标签名和字体大小
-         ylabel('name', fontsize='small/large/...')
+#####坐标轴标签：
+     xlabel('name')    #可以设置标签名和字体大小
+     ylabel('name', fontsize='small/large/...')
 #####标题：
-    title('Sin(x)')
+     title('Sin(x)')
 #####图例：         
      legend(['sin', 'cos'])
 #####网格：
@@ -110,8 +110,9 @@
 ![散点图](https://raw.githubusercontent.com/luokaifa-whu/computationalphysics_N2014301580293/master/Chapter_1-homework_4/%E6%95%A3%E7%82%B9%E5%9B%BE.png)
 
 ####1.3 直方图
-     语法：hist(array())
-     e.g.<br/>
+     语法：
+     hist(array())
+     e.g.
      hist(randn(1000))   #从高斯分布随机生成1000个点得到的直方图
 ![直方图](https://raw.githubusercontent.com/luokaifa-whu/computationalphysics_N2014301580293/master/Chapter_1-homework_4/%E7%9B%B4%E6%96%B9%E5%9B%BE.png)
    
