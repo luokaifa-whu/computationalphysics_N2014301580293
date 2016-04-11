@@ -45,10 +45,25 @@
 
 ---------------------
 
-**四、3月23日第五次作业**
+**五、3月23日第五次作业**
 
 1. 继续练习使用matplotlib画图<Br/>
 2. 完成Chapter 1课后习题 1.5<Br/>
 ——[戳我进入作业报告 5](https://github.com/luokaifa-whu/computationalphysics_N2014301580293/blob/master/Chapter_1-homework_4/%E7%AC%AC%E5%9B%9B%E6%AC%A1%E4%BD%9C%E4%B8%9A.md)
 3. 经过两次练习，我对python里基于matplotlib的二维画图功能有了初步的了解，在查询了一些资料后做了一个小结：
 ——[Python 二维作图方法小结](https://github.com/luokaifa-whu/computationalphysics_N2014301580293/blob/master/Chapter_1-homework_4/Python%20%E4%BA%8C%E7%BB%B4%E4%BD%9C%E5%9B%BE%E6%96%B9%E6%B3%95%E5%B0%8F%E7%BB%93.md)
+
+**六、3月30日第六次作业**
+
+1.Level 1——exercise 2.9<Br/>
+2.Level 2——exercise 2.10（including the air resistance）————“辅助精确打击系统”<Br/>
+3.Level 3——发展“超级辅助精确打击系统”（考虑炮弹初始发射的时候发射角度误差1%，速度有5%的误差，风阻误差10%，可以考虑引入Coriolis force等，以炮弹落点与打击目标距离差平方均值最小为优胜）<Br/>
+——[戳我进入作业报告 6](https://github.com/luokaifa-whu/computationalphysics_N2014301580293/blob/master/Chapter-2/%E7%AC%AC%E5%85%AD%E6%AC%A1%E4%BD%9C%E4%B8%9A.md)<Br/>
+在初步熟悉完python和euler theory后，已基本补上前两次作业（报告仍在进一步改进中），本次作业会尽快补上
+
+**七、4月6日第七次作业**
+
+1.Level 1——exercise 2.19<Br/>
+——老师建议：可以使用argparse和ConfigParser两个包设置程序初始参数<Br/>
+2.Level 2——使用vpython可视化炮弹发射或者棒球运动<Br/>
+——[戳我进入作业报告7]()<Br/>
