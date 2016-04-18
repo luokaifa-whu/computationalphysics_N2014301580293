@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Mon Apr 06 00:56:06 2016
-
 @author: luokaifa
 """
 # Update: 20160403
@@ -25,8 +24,8 @@ import numpy as py
 N_A = []    
 N_B = []    # N_A & N_B are number of two type nuclei
 t = []      # time
-tauA= 10
-tauB= 0
+tauA= 10.
+tauB= 0.
 time = 0
 n = 1
 dt= 1        # tauA&tauB: decay constants, dt: numerical step size, time: total time, n:total number of steps   
@@ -38,7 +37,7 @@ N_A_diff, N_B_diff = [],[]
             # store the difference between theory & simulation
 times = int(raw_input('times of differnt dt (more than 1) :  '))
             # dt ranges
-color = ['ob','xg','*y','oy','pk','+m','xc']+['sy']*(times-7)
+color = ['ob','xg','*y','oy','r','+m','xc']+['sy']*(times-7)
             # color sets of plot
 # to set zero of some var. & para. 
 def delete(): 
@@ -84,8 +83,8 @@ def store(N_A,N_B,t,tauA,tauB,dt,time,n):
 # MAIN: call the function & do all loops
 # compute number of radioactive nuclei
 initialize(N_A,N_B,t,tauA,tauB,dt,time,n)
-c1 = (N_B[0]+N_A[0])/2.
-c2 = (N_A[0]-N_B[0])/2.
+c1 = N_A[0]/1.0
+c2 = (N_B[0]-N_A[0]/(1/tauA+1/tauB))/1.0
 for i in range(times): 
     delete()
     dt = float(raw_input('numerical step size:  '))
@@ -96,8 +95,8 @@ for i in range(times):
     N_B_total.append(N_B)
     t_total.append(t)
     dt_total.append(dt)
-    N_A_theory = c1*np.exp(-1/tauA*(array(t)-t[0]))
-    N_B_theory = -c1/(1/tauA+1/tauB)*np.exp(-1/tauA*(array(t)-t[0]))+c2*np.exp(1/tauB*(array(t)-t[0]))
+    N_A_theory = c1*np.exp(-1/tauA*(array(t)-t[0]))+N_A
+    N_B_theory = c1*tauB/(tauA-tauB)*np.exp((-1/tauA)*(array(t)-t[0]))+c2*np.exp(-1/tauB*(array(t)-t[0]))+N_B
     N_A_diff.append(array(N_A_total[i])-array(N_A_theory))
     N_B_diff.append(array(N_B_total[i])-array(N_B_theory))
 
@@ -139,7 +138,7 @@ ymax=max([max(N_A_diff[0]),max(N_A_diff[-1]),max(N_B_diff[0]),max(N_B_diff[-1])]
 ylim(ymin-(ymax-ymin)/10,ymax+(ymax-ymin)/10)
 xlabel('time')
 ylabel('difference')
-title('difference between theory and simulation',fontsize=20)
+title('errors between theory and simulation',fontsize=20)
 legend(loc ='best')
 
 savefig('decay of nuclei.jpg')
