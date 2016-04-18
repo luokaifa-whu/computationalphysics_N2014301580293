@@ -1,66 +1,72 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Apr 11 22:28:41 2016
-
-@author: luokaifa
+Created on Mon April 4 12:23:45 2016
+   Population growth problems
+@author: Luo Kaifa
 """
 
-import numpy as np
+# Update: 201604018
+
+# PROGRAM population_growth_problem
+
+# Purpose: This program solves for a rate equation of the population growth problem
+#                   dN/dt = aN - bN**2
+# where a and b are two parameters depend on the initial population N
+# We solve a rate equation rised from population problem with Euler method. 
+
+
+# import the tools
 from pylab import *
+import numpy as py
 
-def draw_pic(a,b,N0):
-    a = float(a)
-    b = float(b)
-    N0 = float(N0)
-    error = []
-    N_approx = []
-    N_precise = []
-    N.append(N0)
+#set the vars. and paras.
+a = 0.
+b = 0.
+N0 = 0.
+dt = 1.
+time = 0.
+n = 0.
+c = 0.  #c is a para. rised by interger
+N1 = []
+N2 = []
+error = []
+t = []
+
+#input the paras.
+a = float(raw_input('please input the first-order coefficient a:'))
+b = float(raw_input('please input the second-order coefficient b:'))
+N0 = float(raw_input('please input the initial number of population N0:'))
+time = float(raw_input('please input the total time of population growth:'))
+dt = float(raw_input('please input the numerical step size:'))
+N1.append(float(N0))
+N2.append(float(N0))
+t.append(0)
+c = float(1-a/(b*N0))
+n = int(time/dt)
+
+# calculate the time dependence of N_A & N_B using Euler method
+for i in range(n+1): 
+    N1.append(N1[i]+(a*N1[i]+b*N1[i]*N1[i])*dt)
+    N2.append(a/(b*(1-c*np.exp(-a*(t[0]+i*dt)))))
+    error.append(N2[i]-N1[i])
+    t.append(t[i]+dt)
     
-    if b == 0:
-        final = np.inf
-        max_t = 0.4
-    else:
-        final = a/b
-        max_t = np.log(final*9)/a
-        
-    t = np.linspace(0,max_t,1000)
-    #Euler method 数值解
-    for i in range(999):
-        N_approx_temp = N[i]+(a*N[i]-b*N[i]**2)*t[1]
-        N_approx.append(N_approx_temp)
-        N_precise_temp = ((a*np.exp(a*(t[i]-t[0]))/(a/N0-b+b*np.exp(a*(t[i]-t[0]))
-        N_precise.append(N_precise_temp)
-        error_temp = N_precise_temp - N_aaprox_temp
-        error.append(error_temp)
-    #绘图
-    subplot(211)
-    figure(figsize=(14,6))
-    plot(t,n,label="Theory",color="red",linewidth=1)
-    plot(t,N,label="Simulation",color="yellow",linewidth=3,linestyle='-.')      
-    xlabel("Time(t)")
-    ylabel("population(n)")
-    title("Population growth problems")
-    axis([0,max_t,min(N)*0.9,max(N)*1.1])
-    legend(loc='best')
-    subplot(212)
-    plot(t,error,label="the difference of theory and simulation",color="red",linewidth=3,linestyle='--')      
-    xlabel("Time(t)")
-    ylabel("population(n)")
-    title("Population growth problems")
-    axis([0,max_t,min(N)*0.9,max(N)*1.1])
-    legend(loc='best')
-    savefig(str(a+b+N0)+'.png')
-    show(fig_all)
 
-print 'when b=0, population growth curve'        
-draw_pic(30,0,1000)
-print 'when N0 is small,a=10,b=3, population growth curve'
-draw_pic(10,3,10)
-print 'when N0=1000,a=10,b=0.01, population growth curve'
-draw_pic(10,0.01,1000)
-print 'Now you can draw your curve'
-a = raw_input('input the coefficient of first-order:')
-b = raw_input('input the coefficient of second-order:')
-N0 = raw_input('input initial number N0:')
-draw_pic(a,b,N0)
+
+figure(figsize=(14,7),dpi=80)
+subplot(121)
+plot(t,N1,'-r',linewidth=2,label='Simulation')
+plot(t,N1,'-g',linewidth=2,label='Theory')
+xlabel('time')
+ylabel('number of population')
+title('The population growth',fontsize=20)
+legend(loc = 'best')
+
+subplot(122)
+plot(t,N1,'-r',linewidth=2,label='errors')
+xlabel('time')
+ylabel('difference between theory and simulation')
+title('errors of this simulation',fontsize=20)
+legend(loc = 'best')
+
+savefig('population growth curve.jpg')
