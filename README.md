@@ -61,7 +61,6 @@
 2. Level 2——exercise 2.10（including the air resistance）————“辅助精确打击系统”<Br/>
 3. Level 3——发展“超级辅助精确打击系统”（考虑炮弹初始发射的时候发射角度误差1%，速度有5%的误差，风阻误差10%，可以考虑引入Coriolis force等，以炮弹落点与打击目标距离差平方均值最小为优胜）<Br/>
 ——[戳我进入作业报告 6](https://github.com/luokaifa-whu/computationalphysics_N2014301580293/blob/master/Chapter-2/%E7%AC%AC%E5%85%AD%E6%AC%A1%E4%BD%9C%E4%B8%9A.md)<Br/>
-在初步熟悉完python和euler theory后，已基本补上前两次作业（报告仍在进一步改进中），本次作业会尽快补上
 
 --------------------
 
@@ -74,20 +73,20 @@
 
 **八、4月13日第八次作业**
 
-Exercise 3.7&3.8
+Exercise 3.7&3.8<Br/>
 ——[戳我进入作业报告8](https://github.com/luokaifa-whu/computationalphysics_N2014301580293/blob/master/Chapter-3/%E7%AC%AC%E5%85%AB%E6%AC%A1%E4%BD%9C%E4%B8%9A.md)<Br/>
 
 **九、4月20日第九次作业**
 
 1. Level 1——exercise 3.12
-2. Level 2——exercise 3.16&3.21
+2. Level 2——exercise 3.16&3.21<Br/>
 ——[戳我进入作业报告9](https://github.com/luokaifa-whu/computationalphysics_N2014301580293/blob/master/Chapter-3/%E7%AC%AC%E4%B9%9D%E6%AC%A1%E4%BD%9C%E4%B8%9A.md)<Br/>
 
 **十、4月27日第十次作业**
 
 1. Level 1——exercise 3.26
-2. Level 2——exercise 3.29&3.31
-3. Level 3——将以上题目使用vpython进行3D展示
+2. Level 2——exercise 3.29&3.31<Br/>
+3. Level 3——将以上题目使用vpython进行3D展示<Br/>
 ——[戳我进入作业报告10](https://github.com/luokaifa-whu/computationalphysics_N2014301580293/blob/master/Chapter-3/%E7%AC%AC%E5%8D%81%E6%AC%A1%E4%BD%9C%E4%B8%9A.md)<Br/>
 
 
