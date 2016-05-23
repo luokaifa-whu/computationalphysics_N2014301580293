@@ -70,4 +70,30 @@
 1. Level 1——exercise 2.19<Br/>
 ——老师建议：可以使用argparse和ConfigParser两个包设置程序初始参数<Br/>
 2. Level 2——使用vpython可视化炮弹发射或者棒球运动<Br/>
-——[戳我进入作业报告7]()<Br/>
+——[戳我进入作业报告7](https://github.com/luokaifa-whu/computationalphysics_N2014301580293/blob/master/Chapter-2/%E7%AC%AC%E4%B8%83%E6%AC%A1%E4%BD%9C%E4%B8%9A.md)<Br/>
+
+**八、4月13日第八次作业**
+
+Exercise 3.7&3.8
+——[戳我进入作业报告8](https://github.com/luokaifa-whu/computationalphysics_N2014301580293/blob/master/Chapter-3/%E7%AC%AC%E5%85%AB%E6%AC%A1%E4%BD%9C%E4%B8%9A.md)<Br/>
+
+**九、4月20日第九次作业**
+
+1. Level 1——exercise 3.12
+2. Level 2——exercise 3.16&3.21
+——[戳我进入作业报告9](https://github.com/luokaifa-whu/computationalphysics_N2014301580293/blob/master/Chapter-3/%E7%AC%AC%E4%B9%9D%E6%AC%A1%E4%BD%9C%E4%B8%9A.md)<Br/>
+
+**十、4月27日第十次作业**
+
+1. Level 1——exercise 3.26
+2. Level 2——exercise 3.29&3.31
+3. Level 3——将以上题目使用vpython进行3D展示
+——[戳我进入作业报告10](https://github.com/luokaifa-whu/computationalphysics_N2014301580293/blob/master/Chapter-3/%E7%AC%AC%E5%8D%81%E6%AC%A1%E4%BD%9C%E4%B8%9A.md)<Br/>
+
+
+
+
+
+
+
+
