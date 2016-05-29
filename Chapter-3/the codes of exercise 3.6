@@ -1,0 +1,41 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sun May 29 10:42:04 2016
+
+@author: luokaifa
+"""
+
+
+import math     # import packages
+import string
+import matplotlib.pyplot as plt
+import numpy as np
+
+#设置变量
+q=1.0
+Omega_D=2.0
+F_D=0.2
+g=9.8
+l=1.0
+i = 0.1
+temp_omega = 0.
+temp_theta = 0.
+
+
+#设置数组
+theta = []
+omega = []
+t_theta = []
+theta[0] = 0.2
+omega[0] = 0.
+t_theta[0] = 0.
+
+#设置循环计算差分方程
+for i in range[0,1000]:
+    temp_omega = (-g/l*theta[i]-q*omega[i]+F_D*math.sin(Omega_D*t*i))*t+omega[i]
+    omega.append(temp_omega)
+    temp_theta = omega[i]*t+theta[i]
+    theta.append(temp_theta)
+    t_theta.append(t*(i+1)
+    if i == 1000:
+        break
