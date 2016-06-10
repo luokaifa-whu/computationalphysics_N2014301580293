@@ -23,7 +23,6 @@
 
 1. 下载某大神学长的  [插件](https://github.com/Ron89/thesaurus_query.vim)<br/>
 2. 用Github生成图片外链——(Markdown控制不了图片尺寸，一不小心占地面积过大)<br/>
-   **由于受到质疑，特此声明：此图片与本人性取向无关————性别男，爱好女**
    ![迷の卷福](https://raw.githubusercontent.com/luokaifa-whu/computationalphysics_N2014301580293/master/QQ.20160308141916.png)
 3. 使用[Learning with Python](http://interactivepython.org/runestone/static/thinkcspy/index.html)练习Python
 
@@ -71,16 +70,22 @@
 2. Level 2——使用vpython可视化炮弹发射或者棒球运动<Br/>
 ——[戳我进入作业报告7](https://github.com/luokaifa-whu/computationalphysics_N2014301580293/blob/master/Chapter-2/%E7%AC%AC%E4%B8%83%E6%AC%A1%E4%BD%9C%E4%B8%9A.md)<Br/>
 
+-------------------
+
 **八、4月13日第八次作业**
 
-Exercise 3.7&3.8<Br/>
+1. Exercise 3.7&3.8<Br/>
 ——[戳我进入作业报告8](https://github.com/luokaifa-whu/computationalphysics_N2014301580293/blob/master/Chapter-3/%E7%AC%AC%E5%85%AB%E6%AC%A1%E4%BD%9C%E4%B8%9A.md)<Br/>
+
+----------------
 
 **九、4月20日第九次作业**
 
 1. Level 1——exercise 3.12
 2. Level 2——exercise 3.16&3.21<Br/>
 ——[戳我进入作业报告9](https://github.com/luokaifa-whu/computationalphysics_N2014301580293/blob/master/Chapter-3/%E7%AC%AC%E4%B9%9D%E6%AC%A1%E4%BD%9C%E4%B8%9A.md)<Br/>
+
+----------------------
 
 **十、4月27日第十次作业**
 
@@ -89,6 +94,12 @@ Exercise 3.7&3.8<Br/>
 3. Level 3——将以上题目使用vpython进行3D展示<Br/>
 ——[戳我进入作业报告10](https://github.com/luokaifa-whu/computationalphysics_N2014301580293/blob/master/Chapter-3/%E7%AC%AC%E5%8D%81%E6%AC%A1%E4%BD%9C%E4%B8%9A.md)<Br/>
 
+---------------------------
+
+**十、5月第十一次作业**
+
+1. Exercise 4.7&4.9&4.11
+——[戳我进入作业报告11](https://github.com/luokaifa-whu/computationalphysics_N2014301580293/blob/master/Chapter-4/%E7%AC%AC%E5%8D%81%E4%B8%80%E6%AC%A1%E4%BD%9C%E4%B8%9A.md)<Br/>
 
 
 
