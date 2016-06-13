@@ -41,7 +41,7 @@ class BINARY(object):
         _ax.plot([self.x1[-1]],[self.y1[-1]],'or',markersize=10)
         _ax.plot([self.x2[-1]],[self.y2[-1]],'oy',markersize=8)
         
-fig=plt.figure(figsize=(10,5)) 
+fig=plt.figure(figsize=(12,6)) 
 ax1=plt.axes([0.1,0.1,0.35,0.7])
 ax2=plt.axes([0.6,0.1,0.35,0.7])
 ax1.set_xlim(-0.8,1.4)
