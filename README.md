@@ -122,6 +122,7 @@
 **期末结课论文**
 
 [期末论文(Hyperion's Rotation)](https://github.com/luokaifa-whu/computationalphysics_N2014301580293/blob/master/Final-Homework/%E8%AE%A1%E7%AE%97%E7%89%A9%E7%90%86%E6%9C%9F%E6%9C%AB%E8%AE%BA%E6%96%87.pdf)<br/>
-[代码在此](https://github.com/luokaifa-whu/computationalphysics_N2014301580293/blob/master/Final-Homework/The%20Codes%20of%20Hyperion.py)
+[代码在此](https://github.com/luokaifa-whu/computationalphysics_N2014301580293/blob/master/Final-Homework/The%20Codes%20of%20Hyperion.py)<br/>
+[相关图片及参考文献](https://github.com/luokaifa-whu/computationalphysics_N2014301580293/tree/master/Final-Homework)
 
 
