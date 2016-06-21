@@ -117,6 +117,11 @@
 ——[戳我进入作业报告13](https://github.com/luokaifa-whu/computationalphysics_N2014301580293/blob/master/Chapter-5/%E7%AC%AC%E5%8D%81%E4%B8%89%E6%AC%A1%E4%BD%9C%E4%B8%9A.md)<Br/>
 
 
+----------------------------
 
+**期末结课论文**
+
+[期末论文(Hyperion's Rotation)](https://github.com/luokaifa-whu/computationalphysics_N2014301580293/blob/master/Final-Homework/%E8%AE%A1%E7%AE%97%E7%89%A9%E7%90%86%E6%9C%9F%E6%9C%AB%E8%AE%BA%E6%96%87.pdf)<br/>
+[代码在此](https://github.com/luokaifa-whu/computationalphysics_N2014301580293/blob/master/Final-Homework/The%20Codes%20of%20Hyperion.py)
 
 
