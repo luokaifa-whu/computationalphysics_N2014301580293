@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Jun 19 19:39:44 2016
+Created on Mon Jun 20 19:39:44 2016
 
-@author: luokaifa
+@author: luoka
 """
 
 import math
@@ -28,7 +28,7 @@ r = []
 x.append(1)
 y.append(0)
 vx.append(0)
-vy.append(2*math.pi)
+vy.append(5)
 
 # Hyperion自转的运动变量
 omega2 = []
@@ -44,9 +44,9 @@ t=0.0001
 com_theta2 = []
 com_omega2 = []
 delta_theta2 = []
-com_theta2.append(0.001)
+com_theta2.append(0.01)
 com_omega2.append(0)
-delta_theta2.append(0.001)
+delta_theta2.append(0.01)
 
 
 
@@ -61,7 +61,7 @@ for i in range(0,100000):
 
 #Hyperion Spin的描述模型
 for i in range(0,100000):
-    temp_omega2 = omega2[i]-(3*G*M/(r[i]*r[i]*r[i]*r[i]*r[i]))*(x[i]*math.sin(theta2[0])-y[i]*math.cos(theta2[0]))*(x[i]*math.cos(theta2[0])+y[i]*math.sin(theta2[0]))*t
+    temp_omega2 = omega2[i]-(3*G*M/(r[i]*r[i]*r[i]*r[i]*r[i]))*(x[i]*math.sin(theta2[i])-y[i]*math.cos(theta2[i]))*(x[i]*math.cos(theta2[i])+y[i]*math.sin(theta2[i]))*t
     omega2.append(temp_omega2)
     temp_theta2 = omega2[i+1]*t+theta2[i]
     theta2.append(temp_theta2)
@@ -73,7 +73,8 @@ for i in range(0,100000):
 
 
 #Hperion公转轨迹的绘图部分
-plt.figure(figsize = [12,14])
+plt.figure(figsize = (12,16))
+plt.title('Hyperion Circular orbit')
 plt.subplot(2,2,1)
 plt.scatter(0,0,s=200,c='red')
 plt.plot(x,y,'b')
@@ -81,8 +82,8 @@ plt.xlim(-1.2,1.2)
 plt.ylim(-1.2,1.2)
 plt.xlabel('time(yr)')
 plt.ylabel('theta(radians)')     
-plt.legend({'Circular orbit'},loc='upper right')
-plt.title('Hyperion  theta versus time')
+plt.legend({'theta versus time'},loc='upper right',fancybox="n")
+
 
 
 #Hyperion 自转运动的绘图部分
@@ -93,26 +94,25 @@ plt.xlim(0,10)
 #plt.ylim(-4,4)
 plt.xlabel('time(yr)')
 plt.ylabel('theta(radians)')     
-plt.legend({'Circular orbit'},loc='upper center')
-plt.title('Hyperion  theta versus time')
+plt.legend({'theta versus time'},loc='upper center')
 
 #Hyperion 自转运动的绘图部分
 plt.subplot(2,2,3)
 #plt.figure(figsize = [8,6])
-plt.scatter(theta2,omega2,s=0.01,c='blue')
+plt.scatter(theta2,omega2,s=0.001,c='blue')
 #plt.xlim(0,10)
 #plt.ylim(-4,4)
 plt.xlabel('theta(radians)')
 plt.ylabel('omega(radians/s)')     
-plt.legend({'Circular orbit'},loc='upper center')
-plt.title('Hyperion  theta versus time')
+plt.legend({'omega versus theta'},loc='lower center')
+ 
 
 
 
 #李雅普诺夫指数的模型
 for i in range(0,100000):
-    temp_omega2 = omega2[i]-(3*G*M/(r[i]*r[i]*r[i]*r[i]*r[i]))*(x[i]*math.sin(theta2[0])-y[i]*math.cos(theta2[0]))*(x[i]*math.cos(theta2[0])+y[i]*math.sin(theta2[0]))*t
-    temp_com_omega2 = com_omega2[i]-(3*G*M/(r[i]*r[i]*r[i]*r[i]*r[i]))*(x[i]*math.sin(theta2[0])-y[i]*math.cos(theta2[0]))*(x[i]*math.cos(theta2[0])+y[i]*math.sin(theta2[0]))*t
+    temp_omega2 = omega2[i]-(3*G*M/(r[i]*r[i]*r[i]*r[i]*r[i]))*(x[i]*math.sin(theta2[i])-y[i]*math.cos(theta2[i]))*(x[i]*math.cos(theta2[i])+y[i]*math.sin(theta2[i]))*t
+    temp_com_omega2 = com_omega2[i]-(3*G*M/(r[i]*r[i]*r[i]*r[i]*r[i]))*(x[i]*math.sin(theta2[i])-y[i]*math.cos(theta2[i]))*(x[i]*math.cos(theta2[i])+y[i]*math.sin(theta2[i]))*t
     omega2.append(temp_omega2)
     com_omega2.append(temp_com_omega2)
     temp_theta2 = omega2[i+1]*t+theta2[i]
@@ -135,4 +135,4 @@ plt.plot(time,delta_theta2,'y')         # 正常的线性变化直角坐标系
 plt.xlabel('time(s)')
 plt.ylabel('delta_theta(radians)')     
 plt.legend({'delta_theta versus time'},loc='upper center')
-plt.title('Hyperion  delta_theta versus time')
+#plt.title('delta_theta versus time')
