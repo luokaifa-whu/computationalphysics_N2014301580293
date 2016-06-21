@@ -28,7 +28,7 @@ r = []
 x.append(1)
 y.append(0)
 vx.append(0)
-vy.append(2*math.pi)
+vy.append(8)
 
 # Hyperion自转的运动变量
 omega2 = []
@@ -115,16 +115,22 @@ omega2.append(0)
 theta2.append(0)
 #李雅普诺夫指数的模型
 for i in range(0,100000):
-    #初始状态为0的Hyperion系统
     temp_omega2 = omega2[i]-(3*G*M/(r[i]*r[i]*r[i]*r[i]*r[i]))*(x[i]*math.sin(theta2[i])-y[i]*math.cos(theta2[i]))*(x[i]*math.cos(theta2[i])+y[i]*math.sin(theta2[i]))*t
     omega2.append(temp_omega2)
     temp_theta2 = omega2[i+1]*t+theta2[i]
     theta2.append(temp_theta2)
-    #用来对比的系统
     temp_com_omega2 = com_omega2[i]-(3*G*M/(r[i]*r[i]*r[i]*r[i]*r[i]))*(x[i]*math.sin(com_theta2[i])-y[i]*math.cos(com_theta2[i]))*(x[i]*math.cos(com_theta2[i])+y[i]*math.sin(com_theta2[i]))*t
     com_omega2.append(temp_com_omega2)
     temp_com_theta2 = com_omega2[i+1]*t+com_theta2[i]
     com_theta2.append(temp_com_theta2)
+    if theta2[i+1] > math.pi:
+        theta2[i+1] = theta2[i+1]-2*math.pi
+    if theta2[i+1] < -math.pi:
+        theta2[i+1] = theta2[i+1]+2*math.pi
+    if com_theta2[i+1] > math.pi:
+        com_theta2[i+1] = com_theta2[i+1]-2*math.pi
+    if com_theta2[i+1] < -math.pi:
+        com_theta2[i+1] = com_theta2[i+1]+2*math.pi
     if theta2[i+1] >= com_theta2[i+1]:
         temp_delta_theta2 = theta2[i+1]-com_theta2[i+1]
     else: 
